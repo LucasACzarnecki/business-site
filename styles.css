@@ -93,6 +93,15 @@ label {
     letter-spacing: 0.06em;
 }
 
+a {
+    text-decoration: none;
+    color: var(--primary-color);
+    transition: all .2s ease;
+}
+
+a:hover {
+    color: var(--secondary-color);}
+
 .dn {
 
     display: none;
