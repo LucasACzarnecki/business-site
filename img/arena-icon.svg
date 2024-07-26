@@ -1,1 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?><svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000"><defs><style>.cls-1{fill:#000;stroke-width:0px;}.cls-2{fill:none;stroke:#ff3e02;stroke-miterlimit:10;stroke-width:7px;}</style></defs><rect class="cls-1" width="1000" height="1000"/><path class="cls-2" d="M127.01,764.73L343.53,208.2h312.94l216.52,553.99v29.6h-210.6l-26.22-71.89h-273.19l-26.22,71.89H127.01v-27.07ZM580.35,567.66l-49.9-135.33-19.45-74.43h-21.99l-19.45,74.43-49.9,135.33h160.7Z"/></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1000 1000">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ff3e02;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #000;
+      }
+    </style>
+  </defs>
+  <rect class="cls-2" width="1000" height="1000"/>
+  <path class="cls-1" d="M127,764.7L343.5,208.2h312.9l216.5,554v29.6h-210.6l-26.2-71.9h-273.2l-26.2,71.9H127v-27.1ZM580.3,567.7l-49.9-135.3-19.5-74.4h-22l-19.5,74.4-49.9,135.3h160.7Z"/>
+</svg>
