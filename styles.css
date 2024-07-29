@@ -102,6 +102,9 @@ a {
 a:hover {
     color: var(--secondary-color);}
 
+.btn:hover {
+        color: white;}
+
 .dn {
 
     display: none;
