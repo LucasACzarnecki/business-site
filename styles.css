@@ -107,7 +107,7 @@ a:hover {
 
 .dn {
 
-    display: none;
+    display: none !important;
 }
 
 .buttons {
@@ -123,6 +123,10 @@ a:hover {
     transition: background-color 0.3s;
     font-family: var(--sans);
     white-space: nowrap;
+    width: fit-content;
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-0675);
 }
 
 .primary {
@@ -133,6 +137,14 @@ a:hover {
     color: white;
 }
 
+.primary::after {
+    content: '';
+    width: 0.85rem;
+    height: 0.85rem;
+    background: url("img/right.svg") center / contain no-repeat;
+    flex: 0 0 auto;
+}
+
 .primary:hover {
     background-color: var(--primary-color-shade);
 }
@@ -141,12 +153,21 @@ a:hover {
     --font-weight: 340;
     --font-width: 100;
     font-variation-settings: "wght" var(--font-weight), "wdth" var(--font-width);
-    background-color: var(--gray-2);
-    color: black;
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+.secondary::after {
+    content: '';
+    width: 0.62rem;
+    height: 0.62rem;
+    background: url("img/out.svg") center / contain no-repeat;
+    flex: 0 0 auto;
 }
 
 .secondary:hover {
-    background-color: var(--gray-3);
+    background-color: var(--secondary-color-shade);
+    color: white;
 }
 
 .cta-block {
@@ -303,6 +324,23 @@ a:hover {
     translate: 50%;
     width: 50%;
     max-height: 200px;
+}
+
+.example {
+    border-radius: var(--border-rad-sm);
+    width: 100%;
+    box-shadow: var(--shadow-elevation-medium);
+}
+
+#examples .cta-block {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+#examples .btn {
+    margin-top: auto;
+    align-self: flex-start;
 }
 
 .feature-set {
@@ -634,7 +672,7 @@ body {
 
     
     .dn-m {
-        display: none;;
+        display: none;
     }
     .grid-two {
         --grid-cols: minmax(0, 1fr)
